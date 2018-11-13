@@ -4,7 +4,7 @@ import org.litepal.crud.DataSupport;
 
 public class Country extends DataSupport {
     private int id;
-    private int countryName;
+    private String countryName;
     private String weatherId;
     private int cityId;
 
@@ -16,11 +16,11 @@ public class Country extends DataSupport {
         this.id = id;
     }
 
-    public int getCountryName() {
+    public String getCountryName() {
         return countryName;
     }
 
-    public void setCountryName(int countryName) {
+    public void setCountryName(String countryName) {
         this.countryName = countryName;
     }
 
